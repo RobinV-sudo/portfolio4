@@ -1,17 +1,4 @@
 
-/* Add font files for Space Grotesk */
-@font-face {
-  font-family: 'Space Grotesk';
-  src: url('fonts/space-grotesk.woff2') format('woff2'),
-       url('fonts/space-grotesk.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-:root {
-  --font-family-space-grotesk: 'Space Grotesk', sans-serif;
-  --text-white: rgba(255, 255, 255, 1);
-}
-
 .text-white {
   color: var(--text-white);
 }
@@ -125,7 +112,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 32px;
   text-decoration: none;
@@ -195,7 +182,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 32px;
   text-decoration: none;
@@ -213,7 +200,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 128px;
   text-decoration: none;
@@ -225,7 +212,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 128px;
   text-decoration: none;
@@ -335,7 +322,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 64px;
   text-decoration: none;
@@ -356,7 +343,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 32px;
   text-decoration: none;
@@ -392,7 +379,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 32px;
   text-decoration: none;
@@ -428,7 +415,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 32px;
   text-decoration: none;
@@ -485,7 +472,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 64px;
   text-decoration: none;
@@ -503,7 +490,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-space-grotesk);
+  font-family: $lettertype1;
   font-weight: normal;
   font-size: 64px;
   text-decoration: none;
