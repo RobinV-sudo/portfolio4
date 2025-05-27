@@ -17,11 +17,13 @@ img {
 }
 
 .vector-1-3 {
+  transform: rotate(180deg);
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   border: 1px solid $desgin3border;
   fill: $desgin1;
+  z-index: 0;
 }
 
 .vector-2-4 {
@@ -31,6 +33,7 @@ img {
   fill: $desgin2;
   border: none;
   outline: none;
+  z-index: 2;
 }
 
 .vector-3-5 {
@@ -40,6 +43,7 @@ img {
   fill: $desgin2;
   border: none;
   outline: none;
+  z-index: 2;
 }
 
 .component-desigin-2-2 {
