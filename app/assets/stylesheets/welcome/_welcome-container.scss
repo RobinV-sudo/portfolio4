@@ -1,15 +1,15 @@
 /* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+//* {
+//  margin: 0;
+//  padding: 0;
+//  box-sizing: border-box;
+//}
 
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
+//body {
+//  width: 100%;
+//  min-height: 100vh;
+//  overflow-x: hidden;
+//}
 
 img {
   max-width: 100%;
@@ -22,8 +22,6 @@ img {
   flex-basis: auto;
   border: 1px solid $desgin3border;
   fill: $desgin1;
-  border: none;
-  outline: none;
 }
 
 .vector-2-4 {
@@ -45,6 +43,7 @@ img {
 }
 
 .component-desigin-2-2 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -79,6 +78,7 @@ img {
 }
 
 .component-desigin-3-6 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -115,6 +115,7 @@ img {
 }
 
 .component-3-10 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -149,6 +150,7 @@ img {
 }
 
 .component-desigin-4-14 {
+  flex-grow: 0;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -185,6 +187,7 @@ img {
 }
 
 .component-2-18 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -215,6 +218,7 @@ img {
 }
 
 .component-desigin-4-26 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -233,12 +237,14 @@ img {
 }
 
 .component-desigin-5-25 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 }
 
 .welcome-22 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -273,6 +279,7 @@ img {
 }
 
 .component-desigin-1-28 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -307,6 +314,7 @@ img {
 }
 
 .component-desigin-3-33 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -325,6 +333,7 @@ img {
 }
 
 .component-desigin-4-40 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -361,6 +370,7 @@ img {
 }
 
 .component-desigin-4-44 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -397,6 +407,7 @@ img {
 }
 
 .component-desigin-4-48 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -418,6 +429,7 @@ img {
 }
 
 .vector-4-50 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -433,12 +445,14 @@ img {
 }
 
 .component-info-37 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 }
 
 .component-info-32 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -475,6 +489,7 @@ img {
 }
 
 .contact-51 {
+  display: flex;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
