@@ -16,46 +16,6 @@ img {
   height: auto;
 }
 
-.vector-1-3 {
-  transform: rotate(180deg);
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 1px solid $desgin3border;
-  fill: $desgin1;
-  z-index: 0;
-}
-
-.vector-2-4 {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    fill: #9a9393;
-    border: none;
-    outline: none;
-    z-index: 2;
-    margin-bottom: 24%;
-    margin-right: -28%;
-    margin-left: -13%;
-}
-
-.vector-3-5 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: $desgin2;
-  border: none;
-  outline: none;
-  z-index: 3;
-  margin-top: 18%;
-}
-
-.component-desigin-2-2 {
-  display: flex;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
 
 .vector-1-7 {
   flex-grow: 0;
@@ -63,8 +23,7 @@ img {
   flex-basis: auto;
   border: 1px solid $desgin3border;
   fill: $desgin1;
-  border: none;
-  outline: none;
+  z-index: 0;
 }
 
 .vector-2-8 {
@@ -74,6 +33,7 @@ img {
   fill: $desgin2;
   border: none;
   outline: none;
+  z-index: 2;
 }
 
 .vector-3-9 {
@@ -83,6 +43,7 @@ img {
   fill: $desgin2;
   border: none;
   outline: none;
+  z-index: 3;
 }
 
 .component-desigin-3-6 {
